@@ -67,18 +67,21 @@ namespace Praktikum_Week_10
 			// 
 			// Dgv_match
 			// 
+			this.Dgv_match.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
 			this.Dgv_match.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
 			this.Dgv_match.Location = new System.Drawing.Point(18, 312);
 			this.Dgv_match.Name = "Dgv_match";
 			this.Dgv_match.RowHeadersWidth = 51;
 			this.Dgv_match.RowTemplate.Height = 24;
-			this.Dgv_match.Size = new System.Drawing.Size(732, 216);
+			this.Dgv_match.Size = new System.Drawing.Size(743, 284);
 			this.Dgv_match.TabIndex = 46;
 			// 
 			// labAwayKapten
 			// 
 			this.labAwayKapten.AutoSize = true;
-			this.labAwayKapten.Location = new System.Drawing.Point(636, 96);
+			this.labAwayKapten.Location = new System.Drawing.Point(594, 100);
 			this.labAwayKapten.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
 			this.labAwayKapten.Name = "labAwayKapten";
 			this.labAwayKapten.Size = new System.Drawing.Size(23, 17);
@@ -88,7 +91,7 @@ namespace Praktikum_Week_10
 			// labAwayManager
 			// 
 			this.labAwayManager.AutoSize = true;
-			this.labAwayManager.Location = new System.Drawing.Point(649, 65);
+			this.labAwayManager.Location = new System.Drawing.Point(594, 69);
 			this.labAwayManager.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
 			this.labAwayManager.Name = "labAwayManager";
 			this.labAwayManager.Size = new System.Drawing.Size(23, 17);
@@ -98,7 +101,7 @@ namespace Praktikum_Week_10
 			// labHomeKapten
 			// 
 			this.labHomeKapten.AutoSize = true;
-			this.labHomeKapten.Location = new System.Drawing.Point(132, 96);
+			this.labHomeKapten.Location = new System.Drawing.Point(90, 100);
 			this.labHomeKapten.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
 			this.labHomeKapten.Name = "labHomeKapten";
 			this.labHomeKapten.Size = new System.Drawing.Size(23, 17);
@@ -108,7 +111,7 @@ namespace Praktikum_Week_10
 			// labHomeManager
 			// 
 			this.labHomeManager.AutoSize = true;
-			this.labHomeManager.Location = new System.Drawing.Point(145, 65);
+			this.labHomeManager.Location = new System.Drawing.Point(90, 69);
 			this.labHomeManager.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
 			this.labHomeManager.Name = "labHomeManager";
 			this.labHomeManager.Size = new System.Drawing.Size(23, 17);
@@ -121,9 +124,9 @@ namespace Praktikum_Week_10
 			this.label11.Location = new System.Drawing.Point(522, 96);
 			this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
 			this.label11.Name = "label11";
-			this.label11.Size = new System.Drawing.Size(106, 17);
+			this.label11.Size = new System.Drawing.Size(85, 21);
 			this.label11.TabIndex = 38;
-			this.label11.Text = "Nama Kapten : ";
+			this.label11.Text = "Captain : ";
 			// 
 			// label13
 			// 
@@ -131,9 +134,9 @@ namespace Praktikum_Week_10
 			this.label13.Location = new System.Drawing.Point(522, 65);
 			this.label13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
 			this.label13.Name = "label13";
-			this.label13.Size = new System.Drawing.Size(117, 17);
+			this.label13.Size = new System.Drawing.Size(95, 21);
 			this.label13.TabIndex = 36;
-			this.label13.Text = "Nama Manager : ";
+			this.label13.Text = "Manager : ";
 			// 
 			// label10
 			// 
@@ -141,9 +144,9 @@ namespace Praktikum_Week_10
 			this.label10.Location = new System.Drawing.Point(18, 96);
 			this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
 			this.label10.Name = "label10";
-			this.label10.Size = new System.Drawing.Size(106, 17);
+			this.label10.Size = new System.Drawing.Size(85, 21);
 			this.label10.TabIndex = 35;
-			this.label10.Text = "Nama Kapten : ";
+			this.label10.Text = "Captain : ";
 			// 
 			// label8
 			// 
@@ -151,9 +154,9 @@ namespace Praktikum_Week_10
 			this.label8.Location = new System.Drawing.Point(18, 65);
 			this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
 			this.label8.Name = "label8";
-			this.label8.Size = new System.Drawing.Size(117, 17);
+			this.label8.Size = new System.Drawing.Size(95, 21);
 			this.label8.TabIndex = 33;
-			this.label8.Text = "Nama Manager : ";
+			this.label8.Text = "Manager : ";
 			// 
 			// labCapacity
 			// 
@@ -198,7 +201,7 @@ namespace Praktikum_Week_10
 			// label3
 			// 
 			this.label3.AutoSize = true;
-			this.label3.Location = new System.Drawing.Point(373, 28);
+			this.label3.Location = new System.Drawing.Point(345, 28);
 			this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
 			this.label3.Name = "label3";
 			this.label3.Size = new System.Drawing.Size(26, 17);
@@ -228,7 +231,7 @@ namespace Praktikum_Week_10
 			// comboAway
 			// 
 			this.comboAway.FormattingEnabled = true;
-			this.comboAway.Location = new System.Drawing.Point(590, 21);
+			this.comboAway.Location = new System.Drawing.Point(525, 21);
 			this.comboAway.Margin = new System.Windows.Forms.Padding(4);
 			this.comboAway.Name = "comboAway";
 			this.comboAway.Size = new System.Drawing.Size(160, 24);
@@ -289,7 +292,7 @@ namespace Praktikum_Week_10
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(777, 457);
+			this.ClientSize = new System.Drawing.Size(778, 525);
 			this.Controls.Add(this.label7);
 			this.Controls.Add(this.lbl_skor);
 			this.Controls.Add(this.lbl_tgl);
